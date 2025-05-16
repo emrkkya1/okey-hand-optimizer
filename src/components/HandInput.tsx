@@ -6,7 +6,7 @@ import TileList from './TileList'
 import Hand from './Hand'
 import { generateAllTiles } from '../utils/tileUtils'
 import PartitionSelector from './PartitionSelector'
-import { optimizePartition } from '../logic/HandOptimizer'
+import { optimizePartition } from '../logic/handOptimizer'
 
 const ALL_TILES = generateAllTiles()
 
